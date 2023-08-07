@@ -23,6 +23,7 @@ export default async function Job() {
               href={data.url}
               rel="noreferrer noopener"
               className="min-h-[60px] min-w-[60px] rounded-md overflow-clip relative"
+              target="_blank"
             >
               <Image
                 src={data.logo}
